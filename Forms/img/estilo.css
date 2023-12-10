@@ -1,0 +1,89 @@
+body {
+    
+    font-family: "Times New Roman", Georgia, serif;;
+    background-color: #852ea0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #541c54;
+    padding: 10px;
+    text-align: right;
+}
+
+.header button {
+    background-color: #541c54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.formulario1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.formulario2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: rgb(147, 76, 175);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.footer {
+    background-color: #541c54;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer button {
+    background-color: #541c54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}

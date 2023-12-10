@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+   
+</head>
+
+<body>
+<header>
+    <nav class="header">
+        <button class="menu1">Ínicio</button>
+        <button class="menu2">Sobre nós</button>
+    </nav>
+</header>
+<main>
+    <div class="formulario1">
+        <h1>Cadastro de Produtos</h1>
+        <form>
+            
+            <label for="campodetexto">Nome do Produto:</label> 
+            <input type="text" id="campodetexto" name="campodetexto"> <br>
+
+            <label for="campodetexto">Quantidade:</label> 
+            <input type="number"> <br>
+            
+            <label for="campodetexto">Valor:</label>
+            <input type="number" step="0.010" id="valor:" name="Digite o valor do produto"> <br>
+            
+            <label for="campodetexto">Descrição:</label>
+            <textarea id="msg" name="msg" rows="4" cols="50"></textarea><br>
+
+            <br><input type="button" value="Confirmar"><br>
+
+        </form>
+        
+    </div>
+    <div class="formulario2">
+        <h1>Cadastro do Cliente</h1>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="Nome Completo"><br>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="Telefone"><br>
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="Endereço"><br>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="E-mail"><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="Senha"> <br>
+
+            <br><input type="button" value="Cadastrar"><br>
+            <input type="button" value="Cancelar">
+        </form>
+    </div><br><br>
+</main> 
+<footer>
+    <nav class="footer">
+        <button class="menu1">Detalhes</button>
+        <button class="menu2">Contato</button>
+    </nav>
+</footer>   
+</body>
+</html>
